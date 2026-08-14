@@ -17,6 +17,11 @@ const nextConfig = {
         destination: "https://cal.com/crisariza/intro",
         permanent: true,
       },
+      {
+        source: "/Cristian Ariza - Resume.pdf",
+        destination: "/resume",
+        permanent: true,
+      },
     ];
   },
 };

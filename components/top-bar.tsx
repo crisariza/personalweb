@@ -65,8 +65,8 @@ export default function TopBar() {
         <motion.div whileHover={{ y: -2 }} whileTap={{ y: 0 }}>
           <Link
             target="_blank"
-            href="/Cristian Ariza - Resume.pdf"
-            className={linkClassName("/Cristian Ariza - Resume.pdf")}
+            href="/resume"
+            className={linkClassName("/resume")}
           >
             Resume
           </Link>
@@ -138,10 +138,10 @@ export default function TopBar() {
             <motion.div variants={itemVariants}>
               <Link
                 target="_blank"
-                href="/Cristian Ariza - Resume.pdf"
+                href="/resume"
                 onClick={toggleMenu}
                 className={`block px-4 py-2 text-neutral-300 ${linkClassName(
-                  "/Cristian Ariza - Resume.pdf"
+                  "/resume"
                 )}`}
               >
                 Resume
